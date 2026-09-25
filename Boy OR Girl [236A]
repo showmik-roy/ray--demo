@@ -1,5 +1,5 @@
-codefource ,,,, Boy OR Girl 
-( boy = ignor , or girl = date)
+//* codeforsce problem
+code :*//
 #include<bits/stdc++.h>
  using namespace std;
  int main(){
