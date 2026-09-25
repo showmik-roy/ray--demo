@@ -1,0 +1,27 @@
+codefource ,,,, Boy OR Girl 
+( boy = ignor , or girl = date)
+#include<bits/stdc++.h>
+ using namespace std;
+ int main(){
+string s;
+cin>> s;
+
+set<char>usersr; 
+
+for(int i=0; i < s.size();i++ )
+{
+ usersr.insert(s[i]);
+
+
+}
+if(usersr.size ()% 2 == 0){
+
+    cout<<"chate to him"<<endl;
+
+}
+else {
+    cout<<"ignore him"<<endl;
+}
+
+    return 0;
+ }
